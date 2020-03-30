@@ -107,7 +107,7 @@ router.post('/trips', requireToken, (req, res, next) => {
 })
 
 // UPDATE
-// PATCH /events/5a7db6c74d55bc51bdf39793
+// PATCH /examples/5a7db6c74d55bc51bdf39793
 router.patch('/trips/:id', requireToken, removeBlanks, (req, res, next) => {
   // if the client attempts to change the `owner` property by including a new
   // owner, prevent that by deleting that key/value pair
@@ -123,28 +123,6 @@ router.patch('/trips/:id', requireToken, removeBlanks, (req, res, next) => {
       // pass the result of Mongoose's `.update` to the next `.then`
       return trip.updateOne(req.body.trip)
     })
-    // if that succeeded, return 204 and no JSON
-    .then(() => res.sendStatus(204))
-    // if an error occurs, pass it to the handler
-    .catch(next)
-})
-
-router.patch('/trips/rsvp/:id', requireToken, removeBlanks, (req, res, next) => {
-  // console.log(req.params)
-  // console.log(req.user.id)
-  Trip.findByIdAndUpdate(req.params.id, { $addToSet: { users: req.user.id } }, { new: true, useFindAndModify: false })
-    .then(handle404)
-    // if that succeeded, return 204 and no JSON
-    .then(() => res.sendStatus(204))
-    // if an error occurs, pass it to the handler
-    .catch(next)
-})
-
-router.patch('/trips/unrsvp/:id', requireToken, removeBlanks, (req, res, next) => {
-  // console.log(req.params)
-  // console.log(req.user.id)
-  Trip.findByIdAndUpdate(req.params.id, { $pull: { users: req.user.id } }, { new: true, useFindAndModify: false })
-    .then(handle404)
     // if that succeeded, return 204 and no JSON
     .then(() => res.sendStatus(204))
     // if an error occurs, pass it to the handler
