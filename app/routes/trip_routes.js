@@ -46,7 +46,6 @@ router.get('/trips/owned', requireToken, (req, res, next) => {
 // INDEX SIGNED OUT
 // GET /events/
 router.get('/trips/openall', (req, res, next) => {
-  console.log('open')
   Trip.find()
     .then(trips => {
       // `events` will be an array of Mongoose documents
@@ -63,7 +62,6 @@ router.get('/trips/openall', (req, res, next) => {
 // SHOW
 // GET /events/5a7db6c74d55bc51bdf39793
 router.get('/trips/:id', requireToken, (req, res, next) => {
-  console.log('id')
   // req.params.id will be set based on the `:id` in the route
   Trip.findById(req.params.id)
     .then(handle404)
