@@ -1,7 +1,7 @@
 Trip  Tracker  README: Back End
 
 
-Important Links:
+**Important Links:**
 
 [Deployed Client](https://bhmdev.github.io/trip-tracker-client/#/)
 <br>
@@ -71,11 +71,11 @@ Version 1:
 
 The MVP has a single user creating trips  that belong to them and can be edited by them alone.
 
-After our initial planning meeting where we outlined how we wanted to function as a group/distribute roles and assignment, we created the forms for the desired functions and the CRUD operations.
+After initial planning where I outlined how I wanted my app to function, I createed the desired forms and CRUD operations.
 
-Events for the submit actions were created and linked to the API calls
+Trips for the submit actions were created and linked to the API calls.
 
-Decided that we would do a Many-to-Many between events and users.
+Decided to make success/failure messages.
 
 **Unsolved Issues & Future Goals**
 
