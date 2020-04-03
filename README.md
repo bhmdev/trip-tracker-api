@@ -35,7 +35,6 @@ Back-end:
 <li>Mongoose</li>
 <li>Mongo DB</li>
 <br>
-
 Front-end:
 <li>React</li>
 <li>HTML5</li>
