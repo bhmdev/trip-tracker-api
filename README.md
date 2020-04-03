@@ -24,7 +24,7 @@ To run locally, run the following in terminal from the project directory:
 
 1. npm install
 
-2. npm run start
+2. npm run server
 
 
 **Technologies Used**
@@ -46,9 +46,7 @@ Front-end:
 <br>
 </ol>
 
-**Wire Frames and ERD**
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/X0bEtGq"><a href="https://imgur.com/a/O9CSfR7">Capstone - Trip Tracker - Wireframe</a></blockquote>
+**ERD and Routes**
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="ttSsPcc"><a href="//imgur.com/ttSsPcc">Trip Tracker ERD</a></blockquote>
 
