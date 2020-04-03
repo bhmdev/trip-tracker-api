@@ -7,7 +7,7 @@ Trip  Tracker  README: Back End
 <br>
 [Deployed API](https://boiling-castle-10096.herokuapp.com)
 
-[FrontEnd Reop](https://github.com/bhmdev/trip-tracker-client)
+[FrontEnd Repo](https://github.com/bhmdev/trip-tracker-client)
 
 
 **Trip Tracker Application  Description**
