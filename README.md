@@ -51,9 +51,8 @@ Front-end:
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/X0bEtGq"><a href="https://imgur.com/a/O9CSfR7">Capstone - Trip Tracker - Wireframe</a></blockquote>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="ttSsPcc"><a href="//imgur.com/ttSsPcc">Trip Trackere ERD</a></blockquote>
+<blockquote class="imgur-embed-pub" lang="en" data-id="ttSsPcc"><a href="//imgur.com/ttSsPcc">Trip Tracker ERD</a></blockquote>
 
-<script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>Capstone - Trip Tracker - ERD</a></blockquote>
 
 
 **User Stories**
